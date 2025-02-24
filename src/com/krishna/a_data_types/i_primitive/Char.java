@@ -6,5 +6,9 @@ public class Char {
         char grade = 'A';
 
         System.out.println("The grade is: " + grade);
+
+        // The Unicode value for the letter B is 65, so we could also initialize the char variable as:
+        char grade2 = 66;
+        System.out.println("The grade is: " + grade2);
     }
 }
